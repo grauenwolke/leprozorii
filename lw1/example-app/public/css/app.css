@@ -1,0 +1,40 @@
+.my_cats_breeds {
+    position: absolute;
+    display: block;
+    padding: 0;
+    text-align: center;
+    }
+    
+    .my_cats_breed1,
+    .my_cats_breed2,
+    .my_cats_breed3 {
+    margin: 20px;
+    background-color: #cb88db;
+    border: 3px dotted #b264c5;
+    padding: 20px 10px;
+    width: calc(33% - 24px);
+    display: inline-block;
+    
+    }
+    
+    .block {
+    border: 10px solid #76357c;
+    width: 1000px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    height: 150px;
+    overflow: hidden;
+    }
+    
+    .wrap {
+    width: 1000px;
+    margin-top: 20px;
+    position: absolute;
+    left: 55%;
+    margin-left: -500px;
+    }
+    
+    body {
+    background-color: #ee96fad0;
+    }
